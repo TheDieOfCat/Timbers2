@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "timberalert",
+  "version": "${version}",
+  "name": "Timber Alert",
+  "description": "Affiche TIMBER en gros sur ton ecran + un compteur de procs par session sur Hypixel SkyBlock.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.timberalert.TimberAlertClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
